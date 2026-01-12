@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&display=swap");
 
 html, body, #root {
   height: 100%;
@@ -7,4 +8,9 @@ html, body, #root {
 body {
   font-family: "Fredoka", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background-color: #FFF7F7;
+}
+
+h1, h2, h3 {
+  font-family: "DM Serif Display", "Fredoka", system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans";
+  letter-spacing: -0.01em;
 }

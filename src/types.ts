@@ -8,8 +8,12 @@ export type Product = {
   colors: string[]
   sizes: string[]
   image: string
+  images?: string[]
   shopeeUrl?: string
   tokopediaUrl?: string
   tiktokUrl?: string
   tags?: string[]
+  rating?: number
+  isNew?: boolean
+  description?: string
 }
